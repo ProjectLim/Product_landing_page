@@ -24,6 +24,10 @@ h2 {
   background-color: grey;
 }
 
+#header {
+  position: sticky;
+  top: 0;
+}
 
 .nav-link {
   padding: 20px;
@@ -31,8 +35,9 @@ h2 {
 }
 
 .flex-container > div {
+  background-color: white;
   width: 200px;
   text-align: center;
-  line-height: 10px;
+  line-height: 400px;
   font-size: 14px;
 }
